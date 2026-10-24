@@ -1,0 +1,26 @@
+# Cargo build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock.bak
+
+# Editor / IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Secrets / local env
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
